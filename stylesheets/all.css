@@ -98,38 +98,3 @@
     }
 }
 
-.mobile-nav {
-  float: right;
-  margin-right: rem-calc(10);
-  width: rem-calc(120);
-
-  .button { 
-    margin: rem-calc(28 0);
-  }
-
-  @media #{$medium-up} {
-    display: none;
-  }
-}
-
-.mobile-buttons {
-  width: 100%;
-  overflow: auto;
-
-  @media #{$medium-up} {
-    display: none;
-  }
-
-  .mobile-button {
-    float: right;
-    width: 33%;
-    text-align: center;
-    transition: all 300ms;
-    padding: rem-calc(15 0);
-
-    &:hover {
-      background: $keppel-tint;
-      color: $dark-gray;
-    }
-  }
-}
