@@ -1,17 +1,22 @@
 .site-logo {
 }
 
-  &__text {
+
+ .site-logo-text {
       float: left;
       margin: 22 0 22 0px;
       font-size: 20px;
       line-height: 25px;
-      font-family: $font-family-sans-serif;
-      font-weight: $font-weight-normal;
-      color: $mid-gray;
+    /*  font-family: $font-family-sans-serif;
+      font-weight: $font-weight-normal;*/
+      color: gray;
       display: block;
-
     }
+
+.site-logo-text-alumni {
+  float: left;
+  font-size: 18px;
+}
 
 .image {
 	float: left;
@@ -19,11 +24,15 @@
 	margin: 10px;
 }
 
+.hero-image {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 .site-footer {
-  background: $light-gray;
-  width:100%;
+  background: gray;
+  width: 100%;
   box-shadow: $subtle-inner-shadow;
 
   &__wrapper {

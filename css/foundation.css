@@ -1497,10 +1497,10 @@ kbd {
       background-color: #5f5f5f;
       color: #fefefe; }
   .button.success {
-    background-color: #3adb76;
+    background-color: #3F9B8F;
     color: #fefefe; }
     .button.success:hover, .button.success:focus {
-      background-color: #22bb5b;
+      background-color: #84C3BB;
       color: #fefefe; }
   .button.warning {
     background-color: #ffae00;
