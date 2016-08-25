@@ -32,6 +32,15 @@
   margin-bottom: 40px;
 }
 
+.photo-strip__large {
+  display: block;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  padding: 72px 10px;
+  min-height: 600px;
+}
+
 .photo-strip__text {
   margin-left: 20px;
   color: white;

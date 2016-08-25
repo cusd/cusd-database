@@ -16,22 +16,45 @@
     <div class="medium-10 medium-offset-1 columns">
       <img src="images/CUSDLogoTypeGray.svg" class="image">
       <span class="site-logo-text">Cornell University<br>Sustainable Design<br>Alumni Database</span>
-    </div>
-  </header>
-
-
-    <div class="medium-12 columns">
-     <div class="photo-strip__large" style="background-image: url(images/cornell-hero.jpg)"></div>
+      <div class="medium-2 columns">
+        <a href="about.html" class="success button">About</a><br/>
+     </div>
+     <div class="medium-2 columns">
+       <a href="filter.html" class="success button">Alumni</a><br/>
+     </div>
+     <div class="medium-2 columns">
+       <a href="" class="success button">Log Out</a><br/>
+     </div>
    </div>
+ </header>
 
-       <div class="modal">
-     <div class="medium-6 columns">
-      <h4>CUSD Alumni Directory</h4>
-      <div class="medium-6 columns">
-      <a href="login.html" class="success button">Log In</a>
-    </div>
+ <div class="medium-12 columns">
+   <div class="photo-strip" style="background-image: url(images/cornell-hero.jpg)">
+     <div class="photo-strip__text">
+      <h1>Alumni</h1>
     </div>
   </div>
+
+  <div class="row">
+    <div class="medium-4 columns">
+      <h4>Filters</h4>
+    </div>
+  </div>
+
+  <div class="medium-8 columns">
+   <div class="contacts">
+    <article class="contact">
+     <img class="contact__photo" src="<%= contact[1].image %>">
+     <div class="contact__info">
+      <h3 class="contact__info__name"></h3>
+      <span class="contact__info__current__position"></span>
+      <span class="contact__info__major"></span>
+      <span class="contact__info__team"></span>
+      <span class="contact__info__links"><a href="<%= contact[1].email %>" class="email">Email</a><a href="<%= contact[1].linkedin %>" target="_blank" class="linkedin">LinkedIn</a></span>
+    </div>
+  </article>
+</div>
+</div>
 
 
 <footer class="site-footer">
